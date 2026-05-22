@@ -1,0 +1,143 @@
+/*CSS for my homepage*/  
+
+
+/*Reset*/  
+* { 
+    padding: 0; 
+    margin: 0; 
+
+} 
+
+@font-face {
+    font-family: Gabriela;
+    src: url(../Fonts/Gabriela/Gabriela-Regular.ttf);   
+} 
+
+@font-face {
+    font-family: Roboto;
+    src: url(../Fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);   
+} 
+
+@font-face {
+    font-family: Karla;
+    src: url(../Fonts/Karla/Karla-VariableFont_wght.ttf);   
+} 
+
+
+/*Styled the body*/
+html, body{  
+    width: 100%;  
+    height: 100%;  
+    font-family: Gabriela, Roboto, Karla;  
+    background-color:#40434E; 
+}  
+
+/*Navigation styling*/  
+.navigation {   
+    background-color: #070707;    
+    margin-bottom: 12px;   
+    display: flex; 
+    width: 100vw; 
+    padding: 20px 25px; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+} 
+
+/* styling links in navigation*/
+.navigation a { 
+    color:#ffff;  
+    text-decoration: none; 
+    margin: 0 20px;  
+    font-weight: bold; 
+    font-size: 18px;  
+    text-align: center;   
+      
+
+    
+
+} 
+h3 { 
+    color: white; 
+    text-align: center;
+}
+
+/*Hover affect on nav tags*/ 
+.navigation a:hover { 
+    color:#e6e6fa;
+} 
+
+/* Style Main Heading*/  
+h1 { 
+    text-align: center; 
+    color:#ffff; 
+    font-size: 2.5em; 
+    margin-bottom: 25px;  
+}
+
+
+/*Style PB*/ 
+#logo { 
+    border-radius: 15px; 
+    transition: transform 0.3s ease; 
+    margin-left: 100px; 
+    margin: auto;
+} 
+
+
+/*Style Biography Text*/  
+#Biography { 
+    line-height: 1.5;   
+    color: #ffff;  
+    font-family: Karla;
+} 
+
+/*Style H2*/  
+h2 {  
+    font-family:Roboto;
+    
+    margin-bottom: 10px; 
+    border-bottom: 3px solid #7f8488; 
+    padding: 5px; 
+} 
+
+.footer {  
+    background-color: #070707;   
+    color: #ffff;  
+    margin: 0;   
+    margin-top: 10vw;     
+    justify-content: space-evenly; 
+    display: flex;  
+    width: 100vw; 
+    padding: 20px;     
+    text-align: center; 
+    align-items: center; 
+    position: absolute;     
+
+   
+
+    
+}  
+
+.container { 
+    color: white;
+} 
+
+.main-image {  
+    display: block; 
+    margin: auto;
+    align-items: center;
+} 
+ 
+.timeline { 
+    display: block;  
+    margin: auto;
+    align-items: center;
+} 
+
+#back-button { 
+    background-color: #C49792; 
+    color: white; 
+    font-family: Karla; 
+    padding: 5px;
+}
